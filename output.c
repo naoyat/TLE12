@@ -1,0 +1,1 @@
+c;f(d){d=d%2?c-d:c+d;if(d>127)d+=4;c=c<58?48+(d+112)%10:c<96?65+(d+91)%26:97+(d+59)%26;}main(i){i=0;while((c=getchar())+1)c<32?i=0:f(i++),putchar(c);return 0;}

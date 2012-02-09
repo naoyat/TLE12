@@ -1,0 +1,1 @@
+M=1000000007;typedef long long L;L F(L n){if(n<=2)return 0;L a=1,b=0,c=0,d=1,e=0,f=1,g=1,h=1,A,B,C,D;for(;n;n/=2){if(n&1){A=(a*e+b*g)%M;b=(a*f+b*h)%M;C=(c*e+d*g)%M;d=(c*f+d*h)%M;a=A;c=C;}A=(e*e+f*g)%M;B=f*(e+h)%M;C=g*(e+h)%M;h=(f*g+h*h)%M;e=A;f=B;g=C;}return b;}main(t){scanf("%d",&t);while(t--){L n;scanf("%lld",&n);printf("%lld\n",(F(n-1)+F(n-2)+F(n-3))%M);}return 0;}

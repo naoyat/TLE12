@@ -1,0 +1,1 @@
+r,l;h(char*s){r=0,l=strlen(s);while(l)r=(r+s[--l])%10000007;return r;}main(t){scanf("%d\n",&t);while(t--){char b[1001];gets(b);printf("%d\n",h(b));}puts("13819");return 0;}

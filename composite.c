@@ -1,0 +1,1 @@
+main(){return 0*printf("ma({etun0*pitf(ma({eu0*pit(ma{u0*it(mau0*itmu0*itu0*t0*t0*0*000000*                                                                        "   )     ;     }
